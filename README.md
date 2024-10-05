@@ -1,38 +1,64 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description the networking program that you wrote. Describe how to use your software.  If you did Client/Server, then you will need to describe how to start both.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (you will need to show two pieces of software running and communicating with each other) and a walkthrough of the code.}
+This Python chat application is a simple real-time messaging program that allows multiple clients to communicate through a server. It uses a client-server architecture where each client connects to a central server, sends messages, and receives messages from other clients.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
+### How to Use
+
+1. **Start the Server**:
+   - Run `chat_server.py` to start the server. The server listens on port 7072 for incoming client connections.
+2. **Start the Clients**:
+   - Run `client.py` on multiple terminals or machines. Each client will be asked to enter a username and can start sending messages after connecting to the server.
+
+### Purpose
+
+The purpose of this software is to create a basic real-time chat system using network communication in Python. It demonstrates client-server architecture, socket programming, and threading to allow multiple users to chat simultaneously.
+
 # Network Communication
 
-{Describe the architecture that you used (client/server or peer-to-peer)}
+### Architecture
 
-{Identify if you are using TCP or UDP and what port numbers are used.}
+This program uses a **client-server** architecture. One central server handles the communication between multiple clients.
 
-{Identify the format of messages being sent between the client and server or the messages sent between two peers.}
+### Protocol
+
+- The program uses **TCP (Transmission Control Protocol)** for reliable data transmission.
+- The default port number used for communication is **7072**.
+
+### Message Format
+
+Messages are exchanged between clients and the server in **JSON format**, containing two fields:
+
+- **username**: The username of the client sending the message.
+- **message**: The text of the message being sent.
+
+---
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+### Tools Used
 
-{Describe the programming language that you used and any libraries.}
+- **IDE/Editor**:Basic text editor VS code
+- **Platform**: Developed on Python 3.x.
+
+### Programming Language
+
+- **Python**: Used for socket programming and multithreading.
+- **Libraries**:
+  - `socket`: For network communication.
+  - `threading`: To handle multiple clients simultaneously.
+  - `json`: To format messages for easy reading and parsing.
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+
+- [Web Site Name](http://url.link.goes.here)
+- [Web Site Name](http://url.link.goes.here)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+- **Item 1**: Improve message formatting for better readability (e.g., separating usernames and messages).
+- **Item 2**: Add support for message encryption to enhance security.
+- **Item 3**: Implement a user authentication system (login/register) to track users.
