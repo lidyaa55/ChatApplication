@@ -37,7 +37,7 @@ def receive_messages(client):
         except:
             print("An error occurred!")
             client.close()
-            break 
+            break  
 
 # Main client code
 def main():
