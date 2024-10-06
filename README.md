@@ -2,7 +2,7 @@
 
 This Python chat application is a simple real-time messaging program that allows multiple clients to communicate through a server. It uses a client-server architecture where each client connects to a central server, sends messages, and receives messages from other clients.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video] https://www.loom.com/share/56473642e90d4de6847c0344ab017a8b?sid=2efee2c2-4e5c-4eb5-88d2-514eabb93d1b
 
 ### How to Use
 
