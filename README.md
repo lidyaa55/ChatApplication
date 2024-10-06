@@ -2,7 +2,7 @@
 
 This Python chat application is a simple real-time messaging program that allows multiple clients to communicate through a server. It uses a client-server architecture where each client connects to a central server, sends messages, and receives messages from other clients.
 
-[Software Demo Video] https://www.loom.com/share/56473642e90d4de6847c0344ab017a8b?sid=2efee2c2-4e5c-4eb5-88d2-514eabb93d1b
+[Software Demo Video](https://www.loom.com/share/56473642e90d4de6847c0344ab017a8b?sid=2efee2c2-4e5c-4eb5-88d2-514eabb93d1b)
 
 ### How to Use
 
@@ -54,8 +54,9 @@ Messages are exchanged between clients and the server in **JSON format**, contai
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Python.org](https://docs.python.org/3.6/library/socket.html)
+- [python.org](https://docs.python.org/3.6/library/socketserver.html)
+- [w2school](https://www.w3schools.com/python/default.asp)
 
 # Future Work
 
